@@ -22,9 +22,9 @@ bot.on('message', message => {
         message.channel.send('Tuur ge bent ne fucking retard');
         message.channel.send('En uwe baard trekt op niks!');
     } else if (message.author.username != 'dadbot') {
-        var lowercase = message.content.toLocaleLowerCase();
-        console.log(lowercase);
-        var position = lowercase.search('ik');
+        var lowerCase = message.content.toLocaleLowerCase();
+        console.log(lowerCase);
+        var position = lowerCase.search('ik');
 
         if (position >= 0) {
 
