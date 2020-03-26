@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const token = 'NjkyODA5MjIxNTUyNDcyMTQx.Xnz7Nw.AcYUTdKPSwTxWKKAhDTPZ2XUgG0';
+const token = 'NjkyODA5MjIxNTUyNDcyMTQx.Xn1LKA.Po5QiRAnvKN6uWW2LpMduraRqCw';
 var PREFIX = 'ik';
 
 const http = require('http');
